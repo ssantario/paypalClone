@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { CarouselDemo } from './CarouselDemo'
 import Navbar from './Navbar'
-import Footer from './footer.jsx'
+import Footer from './Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
