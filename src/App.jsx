@@ -1,6 +1,5 @@
 import React from "react";
 import { motion, useInView } from "framer-motion";
-import Footer from "./footer";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter } from "@/components/ui/dialog";
 import step1 from "./assets/step1.png";
@@ -241,7 +240,11 @@ function App() {
             </Dialog>
           </div>
 
-
+          <footer className=" text-black text-center py-4 px-6 border">
+          <p className="text-sm md:text-base">
+            &copy; {new Date().getFullYear()} PayPal Pte. Ltd. memiliki lisensi dari Monetary Authority of Singapore sebagai Lembaga Pembayaran Utama berdasarkan Payment Services Act 2019.
+          </p>
+        </footer>
     </div>
   );
 }
